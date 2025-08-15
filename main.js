@@ -7,11 +7,3 @@ hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
 });
 
-// Optional: contact form alert
-const form = document.querySelector("form");
-if(form) {
-    form.addEventListener("submit", function(e){
-        e.preventDefault();
-        alert("Message sent! (Demo only)");
-    });
-}
